@@ -9,6 +9,7 @@ if __name__ == "__main__":
     Enter HELP for list of available commands or EXIT to terminate.""")
     video_player = VideoPlayer()
     parser = CommandParser(video_player)
+
     while True:
         command = input("YT> ")
         if command.upper() == "EXIT":
